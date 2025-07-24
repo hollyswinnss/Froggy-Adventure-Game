@@ -1,0 +1,121 @@
+# Froggy Adventure
+
+## Description
+Froggy Adventure is a 2D platformer game where you play as a frog
+collecting flies, avoiding evil toads, and collecting various hats
+while navigating through a vibrant world. The game features multiple
+platforms, collectibles, and obstacles.
+
+## Game Structure
+- Multiple platforms with varying heights
+- Scrolling camera that follows the player
+- Animated collectibles and enemies
+- Dynamic sound effects based on player actions
+- Score system with persistent high score tracking
+
+## Dependencies
+- p5.js v1.4.0
+- p5.sound.min.js
+- Modern web browser with JavaScript enabled
+
+## Features
+- Smooth character movement and animation
+- Collectable items (flies and hats)
+- Enemy toads (both stationary and patrolling)
+- Platform mechanics
+- Environmental elements (trees, clouds, mountains, bushes)
+- Score tracking system
+- Lives system
+- Sound effects and background music
+- Start, Game Over, and Level Complete screens
+
+## Controls
+- **LEFT ARROW**: Move left
+- **RIGHT ARROW**: Move right
+- **SPACE**: Jump
+- **ENTER**: Start game (from start screen)
+- **SPACE**: Restart (after game over/level complete)
+
+## Collectibles
+- **Flies**: Increase your score
+- **Hats**: Special collectibles with unique designs
+  - Top Hat
+  - Beret
+  - Police Hat
+  - Cowboy Hat
+  - Hard Hat
+
+## Obstacles
+- **Canyons**: Avoid falling into them
+- **Evil Toads**: 
+  - Stationary toads that wake up when approached
+  - Patrolling toads that move back and forth on platforms
+
+## Technical Details
+Built using:
+- p5.js for graphics and animation
+- JavaScript for game logic
+- Custom sound effects and background music
+
+## Installation
+1. Clone the repository
+2. Open index.html in a web browser
+3. Make sure all sound files are in the correct directory
+
+## Credits
+Created by Holly Swinburne
+
+## Future Improvements
+- Additional levels
+- More collectibles
+- Power-ups
+- Mobile support
+
+## File Structure
+```
+gp6-redo/
+│
+├── index.html
+├── sketch.js
+├── style.css
+├── sounds/
+│   ├── gamebg2.mp3
+│   ├── levelcompletes.wav
+│   ├── gameovers.wav
+│   ├── jumping.wav
+│   ├── frogbite.wav
+│   └── ...
+│
+└── README.md
+```
+
+## Development
+To run the game locally:
+1. Clone the repository:
+```bash
+git clone [your-repository-url]
+```
+2. Navigate to the project directory:
+```bash
+cd gp6-redo
+```
+3. Start a local server (using Python or any other method):
+```bash
+python -m http.server 8000
+```
+4. Open your browser and visit: `http://localhost:8000`
+
+## Browser Compatibility
+- Chrome (recommended)
+- Firefox
+- Safari
+- Edge
+
+## Known Issues
+- Sound may not autoplay on first load due to browser policies
+- Performance may vary on different devices
+
+## Contributing
+Feel free to fork the repository and submit pull requests for any improvements.
+
+## License
